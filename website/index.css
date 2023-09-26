@@ -1,0 +1,38 @@
+.img {
+    background-image: url('../slider-2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 350px;
+    position: relative;
+}
+
+
+.list2 {
+    overflow: hidden;
+    overflow-x: scroll;
+}
+
+.list{
+    margin-bottom: -20px;
+}
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 20px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #7600d9;
+    border-radius: 20px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #7600d9;
+}
